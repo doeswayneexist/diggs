@@ -1,0 +1,20 @@
+/*Styling the team page for large screen*/
+
+@media (min-width: 979px) {
+	
+	.navbar {
+		margin-bottom: 0px;
+	}
+	.navbar .nav {
+		float: right;
+		font-size: 15px;
+		top: 5px;
+	}
+	.nav a {
+		text-transform: uppercase;
+	}
+	.navbar-inner {
+		padding: 22px 0px;
+	}
+}
+
