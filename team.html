@@ -12,11 +12,16 @@
 	<body>
 
 		<!-- add all content that will appear in the header of the document -->
-		<header>
+		<header class="clearfix">
 			<!-- Begin the drop down responsive navbar -->
 			<div class="navbar navbar-inverse navbar-fixed-top">
 				<div class="navbar-inner">
 					<div class="container">
+					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 						<a class="brand" href="#"><img src="img/logo.png"></a>
 						<div class="nav-collapse collapse">
 							<ul class="nav">
@@ -45,14 +50,18 @@
 			</div>
 		</header>
 
-		<div class="container">
+		<div class="pageInfo">
+			<div class="container">
 			<div class="span12">
 				Team
 			</div>
 			<div class="span12">
 				Breadcrumbs
 			</div>
-		</div><!-- Scripts -->
+		</div>
+		</div>
+
+		<!-- Scripts -->
 		<script src="http://code.jquery.com/jquery.js" type="text/javascript">
 </script><script src="bootstrap/js/bootstrap.min.js" type="text/javascript">
 </script><!-- Adding a test comment -->
