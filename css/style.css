@@ -1,3 +1,12 @@
+/*Fixes an issue with the nav bar that causes*/
+.navbar-fixed-top {
+	position: relative;
+}
+
+.pageInfo {
+	background-color: #F9F9F9;
+}
+
 /*Styling the team page for large screen*/
 
 @media (min-width: 979px) {
